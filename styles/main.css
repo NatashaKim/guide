@@ -1,0 +1,29 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap&subset=cyrillic');
+
+@font-face {
+  font-family: "DINPro";
+  src: url("../fonts/DINPro-Bold.otf") format("otf");
+}
+
+:root {
+  --main-color: #006AFF;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-family: DINPro;
+}
