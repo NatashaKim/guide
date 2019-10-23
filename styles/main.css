@@ -1,9 +1,10 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap&subset=cyrillic');
 
+
 @font-face {
-  font-family: "DINPro";
-  src: url("../fonts/DINPro-Bold.otf") format("otf");
+  font-family: "DIN";
+  src: url("../fonts/DIN-Condensed-Bold.woff") format("woff");
 }
 
 :root {
@@ -12,18 +13,112 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  background-image: url(../img/artboard.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
 }
+
 
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
 
+
+/*
+  Секция HERO
+*/
+
+.hero {
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  text-align: center;
+  position: relative;
+  font-family: "DIN";
+  display: block;
+}
+
+.hero span#fronthse {
+  position: absolute;
+  top: 45px;
+  left: 75px;
+  font-size: 90px;
+}
+
+.hero span#frontadc {
+  font-size: 1060px;
+  line-height: 1150px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 35px;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 19.7%;
+  transform: translateX(19.7%);
+  font-family: "DIN";
+  line-height: 50px;
+  font-size: 40px;
+  text-align: left;
+}
+
+.hero p#fronttext {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  position: absolute;
+  left: 1162px;
+  top: 297px;
+  text-align: left;
+  line-height: 26px;
+}
+
+.hero span#oval {
+  position: absolute;
+  top: 43px;
+  left: 255px;
+}
+
+.hero span#triangle {
+  position: absolute;
+  top: 306px;
+  right: 88px;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 19.7%;
+  transform: translateX(19.7%);
+  font-family: "DIN";
+  font-weight: 600;
+  line-height: 100px;
+  font-size: 100px;
+}
+
+h2 {
+  font-family: "DIN";
+}
+
 h1 {
-  font-family: DINPro;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 19.7%;
+  transform: translateX(19.7%);
+  font-family: "DIN";
+  line-height: 50px;
+  font-size: 40px;
+  text-align: left;
 }
