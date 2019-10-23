@@ -1,10 +1,14 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap&subset=cyrillic');
 
+@font-face {
+  font-family: "DINPro";
+  src: url("../fonts/DIN-Condensed-Bold.woff") format("woff");
+}
 
 @font-face {
   font-family: "DIN";
-  src: url("../fonts/DIN-Condensed-Bold.woff") format("woff");
+  src: url("../fonts/DINCyr.woff") format("woff");
 }
 
 :root {
@@ -12,11 +16,11 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-image: url(../img/artboard.png);
   background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
+  /* background-position: top; */
+  background-size:1440px;
 }
 
 
@@ -38,10 +42,8 @@ a {
 .hero {
   background-size: cover;
   background-position: center;
-  height: 85vh;
-  text-align: center;
-  position: relative;
-  font-family: "DIN";
+  height: 840px;
+  font-family: "DINPro";
   display: block;
 }
 
@@ -53,27 +55,15 @@ a {
 }
 
 .hero span#frontadc {
+  position: absolute;
+  margin-left: 75px;
   font-size: 1060px;
   line-height: 1150px;
-  top: 50%;
-  transform: translateY(-50%);
-  margin-left: 35px;
 }
 
-.hero h1 {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 19.7%;
-  transform: translateX(19.7%);
-  font-family: "DIN";
-  line-height: 50px;
-  font-size: 40px;
-  text-align: left;
-}
 
 .hero p#fronttext {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 25px;
   font-weight: 600;
   position: absolute;
@@ -92,33 +82,74 @@ a {
 .hero span#triangle {
   position: absolute;
   top: 306px;
-  right: 88px;
+  left: 1270px;
+}
+
+.hero span#building {
+  position: absolute;
+  top: 150px;
+  left: 390px;
 }
 
 .hero h1 {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 19.7%;
-  transform: translateX(19.7%);
-  font-family: "DIN";
-  font-weight: 600;
-  line-height: 100px;
-  font-size: 100px;
-}
-
-h2 {
-  font-family: "DIN";
-}
-
-h1 {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 19.7%;
-  transform: translateX(19.7%);
-  font-family: "DIN";
-  line-height: 50px;
-  font-size: 40px;
   text-align: left;
+  top: 220px;
+  left: 313px;
+  font-family: "DIN";
+  font-weight: 500;
+  line-height: 70px;
+  font-size: 70px;
+  letter-spacing: -1.3px;
+  color: white;
+}
+
+/*
+  Секция MENU
+*/
+.menu {
+  background-image: url(../img/menu.png); 
+  background-repeat: no-repeat;
+  background-size: 1440px;
+
+  position: relative;
+  font-family: "DIN";
+  font-weight: 500;
+  display: block;
+  margin-top: 180px;
+  height: 1386px;
+}
+
+.menu span#numb {
+  display: block;
+  top: 241px;
+  position: relative;
+  margin-left: 178px;
+  /* margin-top: 245px; */
+  /* height: 449px; */
+  letter-spacing: -11px;
+  /* align-items: center; */
+  /* justify-content: flex-start; */
+  text-align: right;
+  font-size: 300px;
+  width: 600px;
+  padding-bottom: 100px;
+}
+
+.menu span#list {
+  display: block;
+      position: relative;
+      top: -400px;
+}
+
+.menu nav{
+  margin-left: 796px;
+  margin-top: 319px;
+}
+
+.menu nav ul li {
+  display:flex;
+  letter-spacing: 1px;
+  font-size: 100px;
+  letter-spacing: -3.3px;
 }
