@@ -17,11 +17,10 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  background-image: url(../img/artboard2.png);
+  /* background-image: url(../img/artboard2.png); */
   background-repeat: no-repeat;
   background-size:1440px;
 }
-
 
 * {
   -webkit-font-smoothing: antialiased;
@@ -59,7 +58,6 @@ a {
   font-size: 1060px;
   line-height: 1150px;
 }
-
 
 .hero p#fronttext {
   font-family: "Open Sans", sans-serif;
@@ -102,6 +100,7 @@ a {
   letter-spacing: -1.3px;
   color: white;
 }
+
 
 /*
   Секция MENU
@@ -149,6 +148,7 @@ a {
   letter-spacing: -3.3px;
 }
 
+
 /*
   Секция PREPARE
 */
@@ -166,7 +166,6 @@ a {
   padding-top: 58px;
 }
 
-
 h2 {
   font-size: 190px;
   font-family: "DIN";
@@ -177,7 +176,6 @@ p {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
   line-height: 29px;
-
 }
 
 h4 {
@@ -188,16 +186,16 @@ h4 {
   line-height: 97px;
 }
 
-.prepare #h-letter{
+.prepare #h-letter {
   height: 1300px;
 }
 
-.prepare #s-letter{
-height: 700px;
+.prepare #s-letter {
+  height: 700px;
 }
 
-.prepare #e-letter{
-height: 700px;
+.prepare #e-letter {
+  height: 700px;
 }
 
 .prepare #prepare-part-1 {
@@ -223,22 +221,23 @@ height: 700px;
 
 .prepare #prepare-part-3 {
   width: 700px;
-      margin-top: 49px;
-      margin-left: 507px;
+  margin-top: 49px;
+  margin-left: 507px;
 }
 
 .prepare #prepare-site {
-      margin-left: -3px;
-      margin-top: 343px;
+  margin-left: -3px;
+  margin-top: 343px;
 }
 
 .prepare #prepare-part-4 {
- margin-top: 48px;
+  margin-top: 48px;
 }
 
 .prepare h2#h2s1 {
   margin-left: -5px;
 }
+
 
 /*
   Секция EDU
@@ -258,69 +257,61 @@ height: 700px;
   padding-top: 144px;
 }
 
-
 .edu-content div:nth-child(2) {
   width: 749px;
   padding-top: 95px;
   height: 253px;
 }
 
-.edu-content div:nth-child(3,4,5) {}
-
 .edu-content div:nth-child(3) {
-    display: inline-block;
-    width: 380px;
-    vertical-align: top;
-    /* height: 380px; */
-    /* bottom: 14%; */
-    /* transform: translateY(-14%); */
+  display: inline-block;
+  width: 380px;
+  vertical-align: top;
 }
 
 .edu-content div:nth-child(4) {
-    display: inline-block;
-    width: 380px;
-    vertical-align: top;
-    /* height: 380px; */
-    margin-left: 126px
+  display: inline-block;
+  width: 380px;
+  vertical-align: top;
+  margin-left: 126px
 }
 
 .edu-content div:nth-child(5) {
-    display: block;
-    position: absolute;
-    width: 380px;
-    height: 380px;
-    margin-top: 115px;
-    margin-left: 510px;
+  display: block;
+  position: absolute;
+  width: 380px;
+  height: 380px;
+  margin-top: 115px;
+  margin-left: 510px;
 }
 
 .circle {
-    background-color: var(--main-color);
-    color: var(--main-color);
-    width: 94px;
-    height: 94px;
-    border-radius: 50%;
-    position: absolute;
-    z-index: -1;
-    margin-left: -51px;
-    margin-top: -43px;
+  background-color: var(--main-color);
+  color: var(--main-color);
+  width: 94px;
+  height: 94px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+  margin-left: -51px;
+  margin-top: -43px;
 }
-
-/* .f {
-    height: 1060px;
-    bottom: 0px;
-} */
 
 #important {
-    display: block;
-    position: absolute;
-    font-family: DIN;
-    font-size: 200px;
-    bottom: 0px;
-    margin-bottom: -24px;
-    margin-left: 360px;
-    letter-spacing: -9px;
-    color: white;
+  display: block;
+  position: absolute;
+  font-family: DIN;
+  font-size: 200px;
+  bottom: 0px;
+  margin-bottom: -24px;
+  margin-left: 360px;
+  letter-spacing: -9px;
+  color: white;
 }
+
+/*
+  Секция EDU2
+*/
 
 .edu2 {
   position: relative;
@@ -332,6 +323,11 @@ height: 700px;
   height: 1818px;
 }
 
+
+/*
+  Секция EDU2
+*/
+
 .edu2 h3 {
   font-family: "DIN";
   font-size: 114px;
@@ -342,9 +338,7 @@ height: 700px;
   letter-spacing: -1px;
 }
 
-
-
-.area-with-columns{
+.area-with-columns {
   display: flex;
   flex-wrap: wrap;
   width: 1080px;
@@ -352,73 +346,88 @@ height: 700px;
   margin-left: 270px;
 }
 
-.one-column{
+.one-column {
   flex-grow: 1;
   width: 300px;
 }
 
-.one-column ul{
-width: 800px;
-margin: 0px auto;
+.one-column #fonts {
+  margin-left: 25px;
 }
 
-.one-column ul{
-    position: relative;
-    display: inline-block;
-    width: 360px;
-    min-height:50px;
+.one-column #mockups {
+  margin-left: 33px;
+}
+
+.one-column ul {
+  width: 800px;
+  margin: 0px auto;
+}
+
+.one-column ul {
+  position: relative;
+  display: inline-block;
+  width: 360px;
+  min-height:50px;
 }
 
 .one-column li {
-    font-family: "Open Sans", sans-serif;
-    font-size: 20px;
-    line-height: 55px;
-    width: 220px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  line-height: 37px;
+  width: 220px;
 }
 .one-column h5 {
   font-family: "DIN";
-      font-size: 60px;
-      letter-spacing: -4px;
-      margin-bottom: 118px;
+  font-size: 60px;
+  letter-spacing: -4px;
+  margin-bottom: 118px;
 }
 
 .edu2 h6 {
-    display: block;
-    font-family: "DIN";
-    font-size: 35px;
-    background-color: var(--main-color);
-    color: white;
-    letter-spacing: -1px;
-    text-align: center;
-    height: 55px;
-    display: table-cell;
-    vertical-align: middle;
+  display: block;
+  font-family: "DIN";
+  font-size: 35px;
+  background-color: var(--main-color);
+  color: white;
+  letter-spacing: -1px;
+  text-align: center;
+  height: 55px;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .brick {
-    background-color: var(--main-color);
-    width: 210px;
-    height: 55px;
-    display: table;
-    margin-top: 69px;
-    margin-bottom: 38px;
-  }
-
-  .site {
-    margin-bottom: 52px;
-  }
-
-  .circle-small {
-    background-color: var(--main-color);
-    color: var(--main-color);
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
-    position: absolute;
-    z-index: -1;
-    margin-left: -43px;
-    margin-top: 13px;
+  background-color: var(--main-color);
+  width: 210px;
+  height: 55px;
+  display: table;
+  margin-top: 65px;
+  margin-bottom: 46px;
 }
+
+.site {
+  margin-bottom: 24px;
+  padding-top: 43px;
+  display: block;
+}
+
+.circle-small {
+  background-color: var(--main-color);
+  color: var(--main-color);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+  margin-left: -43px;
+  margin-top: 13px;
+}
+
+
+/*
+  Секция ADVICE
+*/
 
 .advice {
   width: 1440px;
@@ -430,21 +439,64 @@ margin: 0px auto;
 }
 
 .advice p {
-  margin-top: 99px;
+  margin-top: 74px;
+  padding-top: -12px;
   height: 172px;
   margin-left: 291px;
+  width: 830px;
+  margin-bottom: 99px;
+}
+
+.advice #comp {
+  margin-top: 99px;
+  margin-bottom: 0px;
 }
 
 .advice-content {
-  height: 2281px;
+  height: 2374px;
   display: block;
+  padding-top: 100px;
   background-repeat: no-repeat;
-  background-position: 118px 0px;
+  background-position: 126px 0px;
   background-image: url(../img/3section/comp.png);
 }
+
+.advice-content h2 {
+  font-size: 70px;
+}
+
 
 #advice-footer {
   background-color: var(--main-color);
   display: block;
   height: 300px;
 }
+
+.advice-content .circle {
+  margin-left: 230px;
+}
+
+
+.advice-content h2 {
+  font-size: 100px;
+  padding-top: 868px;
+  padding-left: 228px;
+}
+
+#last {
+  margin-top: 153px;
+}
+
+#ob {
+  font-size: 70px;
+  font-family: "DIN";
+  padding-top: 998px;
+  margin-left: 545px;
+  padding-bottom: 11px;
+  display: block;
+  letter-spacing: -1px;
+  }
+
+  b {
+    font-weight: bold;
+  }
